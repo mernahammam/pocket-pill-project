@@ -114,3 +114,95 @@ nav .nav-item .dropdown-menu .dropdown-item:hover{
 .ftco-footer-social li a:hover{
     background-color:  #8cdb5d;
 }
+
+footer .mouse .mouse-icon {
+    background-color:#75c247 ;
+    border: 1px solid rgb(224, 223, 223);
+}
+footer .mouse .mouse-icon .icon-arrow-up{
+    color: white;
+}
+
+
+/*********************************************************************************************/
+
+ .product .img-prod img {
+    height:200px;
+    width:150px;
+    text-align: center;
+    position: relative;
+    top:15%;
+    left: 20%;
+}
+ .product .img-prod{
+    background-color: #f3f3f3;
+    height: 300px;
+}
+.product .img-prod .overlay{
+    background-color: #75c247;
+}
+.offers .product .status {
+background-color: rgb(172, 25, 25) !important;
+color: white !important;
+height: 135px !important;
+font-size: 22px !important;
+font-weight: 400 !important;
+}
+
+.product .text .bottom-area a.add-to-cart{
+    background-color: #227093;
+
+}
+.product .text .bottom-area a.add-to-cart:hover, .product .text .bottom-area a.buy-now:hover{
+    background-color: #75c247 ;
+}
+
+
+/* //////////////////////////////////****************************************************** */
+/* search section */
+
+/*search box css start here*/
+.search-sec{
+    padding: 2rem;
+}
+.search-slt{
+    display: block;
+    width: 100%;
+    font-size: 0.875rem;
+    line-height: 1.5;
+    color: #55595c;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    height: calc(3rem + 2px) !important;
+    border-radius:0;
+}
+.search-sec .form-control option {
+    background-color: rgba(114, 148, 178,1);
+    color: white;
+}
+/* .search-sec .form-control option:hover{
+    background-color: yellowgreen;
+} */
+.wrn-btn{
+    width: 100%;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: capitalize;
+    height: calc(3rem + 2px) !important;
+    border-radius:0;
+}
+.search-btn{
+    background-color:#2375b8;
+}
+.search-btn:hover{
+    background-color:#75c247 ;
+}
+@media (min-width: 992px){
+    .search-sec{
+        position: relative;
+        top: -114px;
+        background: rgba(119, 122, 126, .2)
+    }
+}
+
