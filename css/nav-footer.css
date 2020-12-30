@@ -1,0 +1,116 @@
+.nav-logo{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: white;
+    border: 6px solid #cfd0da;
+}
+
+.footer-logo{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: white;
+    border: 6px solid #cfd0da;
+}
+
+.home-slider.owl-carousel{
+    background-color:#f8f9fa;
+    /* background-color: #75c247; */
+}
+nav .collapse.navbar-collapse .navbar-nav .nav-item a{
+    font-weight: bolder ;
+    font-size:  14px;
+    transition: all .5s ease-in-out;
+    color: #227093;
+}
+nav .collapse.navbar-collapse .navbar-nav .nav-item a:hover{
+    color:  #75c247;
+    transform: scale(1.1);
+}
+.ftco-navbar-light .navbar-nav > .nav-item .dropdown-menu{
+    background-color:rgba(114, 148, 178,.8);
+   
+}
+nav .nav-item .dropdown-menu .dropdown-item:hover{
+
+    color: #8eec57 !important;
+}
+.icon-shopping_cart , .icon-user-md{
+    font-size:  28px;
+    color: #6d91b0;
+  
+}
+.icon-shopping_cart:hover , .icon-user-md:hover{
+    color: #75c247;
+   
+}
+
+/* fixed navbar  */
+.ftco-navbar-light.scrolled .nav-item.cta > a{
+   background-color: white;
+    /* color: rgb(111 99 239); */
+    
+}
+/* .icon-shopping_cart:before ,.icon-user-md:before{
+    color: rgb(111 99 239) ;
+} */
+/* .icon-shopping_cart:before:hover ,.icon-user-md:before:hover{
+    color: #75c247 ;
+} */
+
+.ftco-navbar-light.scrolled .nav-item.active > a{
+    color:#75c247 !important ;
+}
+.ftco-navbar-light.scrolled .nav-item > a  {
+    color:#227093 !important;
+}
+.ftco-navbar-light.scrolled .nav-item > a:hover{
+    color:#75c247 !important ;
+}
+.ftco-navbar-light.scrolled .nav-item.cta > a{
+    background-color: ghostwhite;
+}
+.ftco-navbar-light.scrolled .nav-item.cta > a:hover{
+    background-color: rgb(186, 187, 204);
+}
+/* slider */
+/* slider button*/
+#home-section .btn-custom , .slider-item .btn-custom{
+    background-color:#6d91b0;
+   padding: 10px 30px;
+   font-size: large;
+   border-radius: 8px;
+
+}
+#home-section .btn-custom:hover , .slider-item .btn-custom:hover{
+    background-color:   #75c247;
+    /* border-radius: 0px; */
+    /* color: #000; */
+}
+
+/* slider images */
+ /* .sliderImg3Home{
+   
+    height: 80%;
+}
+.sliderImg2Home{
+    height: 90%;
+} */
+
+
+/* footer */
+
+.ftco-footer{
+    background-color:#5f8aaf;
+}
+.social-title{
+    font-weight: bolder;
+    color: rgb(197, 195, 195);
+}
+.ftco-footer-social li a{
+    background-color: cornflowerblue;
+}
+.ftco-footer-social li a:hover{
+    background-color:  #8cdb5d;
+}
