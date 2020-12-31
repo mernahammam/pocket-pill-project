@@ -85,7 +85,7 @@ nav .nav-item .dropdown-menu .dropdown-item:hover{
 
 }
 #home-section .btn-custom:hover , .slider-item .btn-custom:hover{
-    background-color:   #75c247;
+    background: linear-gradient(to right, #04913f, #2dc341, #33f05c);
    
 }
 
@@ -138,7 +138,7 @@ footer .mouse .mouse-icon .icon-arrow-up{
     height: 300px;
 }
 .product .img-prod .overlay{
-    background-color: #75c247;
+    background: linear-gradient(to right, #04913f, #2dc341, #33f05c);
 }
 .offers .product .status {
 background-color: rgb(172, 25, 25) !important;
@@ -153,9 +153,17 @@ font-weight: 400 !important;
 
 }
 .product .text .bottom-area a.add-to-cart:hover, .product .text .bottom-area a.buy-now:hover{
-    background-color: #75c247 ;
+    background: linear-gradient(to right, #04913f, #2dc341, #33f05c);
 }
 
+
+/* slider number in products pages */
+.block-27 ul li.active span{
+    background: linear-gradient(to right, #04913f, #2dc341, #33f05c);
+}
+/* .block-27 ul li span:hover{
+    background: linear-gradient(to right, #04913f, #2dc341, #33f05c);
+} */
 
 /* //////////////////////////////////****************************************************** */
 /* search section */
