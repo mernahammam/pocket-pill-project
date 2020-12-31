@@ -29,10 +29,14 @@
 }
 
 .finishbuying h2 {
-    padding-top: 10px;
+    padding-top: 20px;
     color: #AA1919 !important;
 }
 
 .finishbuying h2 a{
     color: #040691 !important;
+}
+
+.finishbuying h2 a:hover{
+    opacity: .4;
 }
