@@ -62,8 +62,7 @@ body {
 
 .main {
     background-color: #FFFFFF;
-    width: 400px;
-
+    width: 500px;
     margin: 7em auto;
     border-radius: 1.5em;
     box-shadow: 0px 11px 35px 2px rgba(0, 0, 0, 0.14);
@@ -132,29 +131,29 @@ form.form1 {
     box-shadow: 2px 2px 5px #AA1919;
 }
 
-.submit {
+.main .submit {
     cursor: pointer;
     border-radius: 5em;
     color: #fff !important;
     background: linear-gradient(to right, #910404, #c32d2d, #f04a33);
     /* background: linear-gradient(to right, #1e27a7,#7078e2, #7e85ee); */
     border: 0;
-    padding-left: 90px;
+    padding-left: 113px;
     padding-right: 90px;
     padding-bottom: 10px;
     padding-top: 10px;
     font-family: ui-serif;
-    margin-left: 20%;
+    margin-left: 22%;
     font-size: 20px;
     box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.04);
     text-align: center;
     transition-property: padding-left, padding-right, margin-left;
 }
 
-.submit:hover {
-    padding-left: 115px;
-    padding-right: 115px;
-    margin-left: 15%;
+.main .submit:hover {
+    padding-left: 140px;
+    padding-right: 150px;
+    margin-left: 12%;
 }
 
 .forgot {
@@ -169,11 +168,14 @@ a {
     text-decoration: none
 }
 
-.forgot a {
+.main .forgot a {
     text-shadow: 0px 0px 3px rgba(117, 117, 117, 0.12);
-    color: #989393 !important;    text-decoration: none
+    color: #989393 !important;    text-decoration: none;
+    margin: 0px 0 19px -34px;
+
 }
-.forgot a:hover{
+
+.main .forgot a:hover{
   
     color: #2375b8 !important;
 }
@@ -184,7 +186,92 @@ a {
     }
 }
 
-.loginul li{
-    margin-left: 100px;
-    padding-bottom: 20px;
+.main .loginul {
+    margin: 0px 0 19px 147px;
 }
+
+.main input{
+    margin-left: 12%;
+}
+
+
+
+
+/* signup */
+
+.signp {
+    background-color: #FFFFFF;
+    width: 600px;
+
+    margin: 7em auto;
+    border-radius: 1.5em;
+    box-shadow: 0px 11px 35px 2px rgba(0, 0, 0, 0.14);
+}
+
+.signp .submit {
+    padding-left: 105px;
+    padding-right: 105px;
+    margin-left: 25%;
+}
+
+.signp .submit:hover {
+    padding-left: 175px;
+    padding-right: 170px;
+    margin-left: 12%;
+}
+
+
+
+.signp ul {
+    margin: 0px 0 19px 197px;
+}
+
+.signp .forgot {
+    text-shadow: 0px 0px 3px rgba(117, 117, 117, 0.12);
+    color: #E1BEE7;
+    padding-top: 11px;
+    margin-left: -1%;
+}
+
+
+/* forget password */
+
+.forgetpassword{
+   background-color: #FFFFFF;
+    width: 600px;
+    margin: 7em auto;
+    border-radius: 1.5em;
+    box-shadow: 0px 11px 35px 2px rgba(0, 0, 0, 0.14);
+}
+
+.forgetpassword input{
+    margin-left: 12%;
+}
+
+.forgetpassword .submit {
+    padding-left: 105px;
+    padding-right: 105px;
+    margin-bottom: 20px;
+    margin-left: 20%;
+}
+
+.forgetpassword .submit:hover {
+    padding-left: 175px;
+    padding-right: 170px;
+    margin-left: 12%;
+}
+
+
+
+.forgetpassword ul {
+    margin-left: 15%;
+}
+
+.forgetpassword .forgot {
+    text-shadow: 0px 0px 3px rgba(117, 117, 117, 0.12);
+    color: #E1BEE7;
+    /* padding-top: 11px; */
+   
+    margin-left: -1%;
+}
+
