@@ -121,6 +121,9 @@ footer .mouse .mouse-icon .icon-arrow-up{
 
 
 /*********************************************************************************************/
+/* .offers-homePage {
+    margin-top: -116px !important;
+} */
 
  .product .img-prod img {
     height:200px;
@@ -128,7 +131,7 @@ footer .mouse .mouse-icon .icon-arrow-up{
     text-align: center;
     position: relative;
     top:15%;
-    left: 20%;
+    left: 25%;
 }
  .product .img-prod{
     background-color: #f3f3f3;
@@ -197,7 +200,7 @@ font-weight: 400 !important;
 @media (min-width: 992px){
     .search-sec{
         position: relative;
-        top: -114px;
+        top: 0px;
         background: rgba(119, 122, 126, .2)
     }
 }
@@ -211,18 +214,38 @@ font-weight: 400 !important;
 /* ******************************************************************************* */
 
 /* pharmacies */
+
+/* right side ... pharmacies card */
 .pharmacy .img-prod img {
-    height:100px;
-  
- 
+    height:150px;
+    width:150px;
     text-align: center;
     position: relative;
-    top:0;
-    left:0;
+    top:25%;
+    left: 25%;
 }
  .pharmacy .img-prod{
     background-color: #f3f3f3;
     height: 300px;
 }
+.pharmacy .img-prod .overlay{
+    background: linear-gradient(to right, #04913f, #2dc341, #33f05c);
+}
 
+.pharmacy h3 a:hover {
+    background: linear-gradient(to right, #04913f, #2dc341, #33f05c);
+    color: white;
+}
 
+/* left side pharmacies branches  */
+.panel-heading a{
+    color: #227093;
+    font-size: 13px;
+
+}
+.panel-heading a:hover{
+    color: #30ce49;
+}
+.panel-body ul li a:hover{
+    color: #30ce49;
+}
