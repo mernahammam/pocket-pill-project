@@ -1,0 +1,38 @@
+.table .thead-primary, .table tbody tr td.product-remove a {
+    /* background: #5D6CF7 !important; */
+    background: linear-gradient(to right, #040691, #2d55c3, #333ff0);
+}
+
+.table tbody tr td.product-remove a {
+    padding: 0 !important;
+}
+
+.table tbody tr td.product-remove img {
+    width: 26px;
+    height: 40px;
+    padding: 0 !important;
+}
+
+.table tbody tr td.product-remove img:hover {
+    opacity: .8;
+}
+
+
+.billing-form input{
+    border-radius: 25px !important;
+    height: 50px !important;
+
+}
+.billing-form input:hover {
+    border: 2px solid #AA1919 !important;
+    box-shadow: 2px 2px 5px #AA1919;
+}
+
+.finishbuying h2 {
+    padding-top: 10px;
+    color: #AA1919 !important;
+}
+
+.finishbuying h2 a{
+    color: #040691 !important;
+}
