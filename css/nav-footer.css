@@ -3,7 +3,9 @@
     height: 100px;
     border-radius: 50%;
     background-color: white;
-    border: 6px solid #cfd0da;
+    border: 6px solid #e3e4eb;
+    background: linear-gradient(to right, #cdcecd, #f9fcf9, #bccfc0);
+
 }
 
 .footer-logo{
@@ -11,7 +13,12 @@
     height: 100px;
     border-radius: 50%;
     background-color: white;
-    border: 6px solid #cfd0da;
+    /* border: 6px solid #cfd0da; */
+    border: 6px solid #e3e4eb;
+    background: linear-gradient(to top, #b9bbb9, #f9fcf9, #bccfc0);
+    /* background: linear-gradient(to right, #08e608, #0a1d0a, #757575); */
+
+
 }
 
 .home-slider.owl-carousel{
@@ -78,7 +85,8 @@ nav .nav-item .dropdown-menu .dropdown-item:hover{
 /* slider */
 /* slider button*/
 #home-section .btn-custom , .slider-item .btn-custom{
-    background-color:#6d91b0;
+    /* background-color:#6d91b0; */
+    background: linear-gradient(to right, #040691, #2d50c3, #333ff0);
    padding: 10px 30px;
    font-size: large;
    border-radius: 8px;
@@ -90,7 +98,7 @@ nav .nav-item .dropdown-menu .dropdown-item:hover{
 }
 
 
- 
+ /* end slider */
  
 
 
@@ -108,11 +116,15 @@ nav .nav-item .dropdown-menu .dropdown-item:hover{
     background-color: cornflowerblue;
 }
 .ftco-footer-social li a:hover{
-    background-color:  #8cdb5d;
+
+
+        background: linear-gradient(to right, #049110, #32c32d, #43f033);
+        /* color: white; */
+
 }
 
 footer .mouse .mouse-icon {
-    background-color:#75c247 ;
+    background: linear-gradient(to top, #2f0d8d, #523ec5, #8161f5);
     border: 1px solid rgb(224, 223, 223);
 }
 footer .mouse .mouse-icon .icon-arrow-up{
@@ -150,6 +162,7 @@ font-weight: 400 !important;
 
 .product .text .bottom-area a.add-to-cart{
     background-color: #227093;
+    /* background: linear-gradient(to right, #040d91, #302dc3, #3346f0); */
 
 }
 .product .text .bottom-area a.add-to-cart:hover, .product .text .bottom-area a.buy-now:hover{
@@ -166,7 +179,7 @@ font-weight: 400 !important;
 } */
 
 /* //////////////////////////////////****************************************************** */
-/* search section */
+/* start search section */
 
 /*search box css start here*/
 .search-sec{
@@ -200,10 +213,15 @@ font-weight: 400 !important;
     border-radius:0;
 }
 .search-btn{
-    background-color:#2375b8;
+    /* background-color:#2375b8; */
+    /* background: linear-gradient(to right, #1e0491, #2d37c3, #336ff0); */
+    background: linear-gradient(to right, #040691, #2d50c3, #333ff0);
+
 }
 .search-btn:hover{
-    background-color:#75c247 ;
+    /* background-color:#75c247 ; */
+    background: linear-gradient(to right, #04913f, #2dc341, #33f05c);
+
 }
 @media (min-width: 992px){
     .search-sec{
@@ -212,11 +230,17 @@ font-weight: 400 !important;
         background: rgba(119, 122, 126, .2)
     }
 }
+/* end search section  */
+
 
 /* **************************************************************************** */
 
 .ftco-section .btn{
-    background: linear-gradient(to right, #910404, #c32d2d, #f04a33);
+    background: linear-gradient(to right, #190491, #442dc3, #5c33f0);
+}
+.ftco-section .btn:hover{
+    background: linear-gradient(to right, #049110, #3ac32d, #52f033);
+    color: white;
 }
 
 /* ******************************************************************************* */
@@ -256,4 +280,8 @@ font-weight: 400 !important;
 }
 .panel-body ul li a:hover{
     color: #30ce49;
+}
+/* ************************************************************************************** */
+.offers-category-home-page{
+    margin-bottom: 50px;
 }
