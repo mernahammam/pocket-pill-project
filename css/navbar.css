@@ -4,11 +4,12 @@
   width: 50%;
 }
 .menuzord-brand img{
-  width: 80%;
-  height: 90%;
+   width: 100px;
+  height: 500px;
   border: 5px solid rgb(204, 202, 202);
   border-radius: 50%;
-  background: linear-gradient(to right, #aaa9a9, #f3f1f1, #b9b7b7);}
+  background: linear-gradient(to right, #aaa9a9, #f3f1f1, #b9b7b7);
+}
 .clearfix:before,
 .clearfix:after {
     content: " ";
