@@ -1,5 +1,12 @@
 /* Navbar */
 
+.menuzord-brand{
+  width: 50%;
+}
+.menuzord-brand img{
+  width: 70%;
+  height: 120%;
+}
 .clearfix:before,
 .clearfix:after {
     content: " ";
@@ -15,7 +22,7 @@
 
 .navbar-container{
     position: relative;
-    margin: 0px auto;
+    margin: 0px auto 15px;
     clear: both;
 }
 
