@@ -35,6 +35,8 @@
 <link href="css/custom-bootstrap-margin-padding.css" rel="stylesheet" type="text/css">
 <!-- CSS | Responsive media queries -->
 <link href="css/responsive.css" rel="stylesheet" type="text/css">
+<link href="css/navbar.css" rel="stylesheet" type="text/css">
+
 <!-- CSS | Style css. This is the file where you can place your own custom css code. Just uncomment it and use it. -->
 <!-- <link href="css/style.css" rel="stylesheet" type="text/css"> -->
 
@@ -70,6 +72,152 @@
   </div>
   
   <!-- Header -->
+  <header id="header" class="header">
+    <div class="header-top bg-theme-colored sm-text-center">
+      <div class="container">
+        <div class="row mt-10">
+          <div class="col-md-8">
+            <div class="widget text-white">
+              <i class="fa fa-clock-o text-white"></i> Opening Hours: Mon - Tues : 6.00 am - 10.00 pm, Sunday Closed
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="widget">
+              <ul class="list-inline text-right flip sm-text-center">
+                <li>
+                  <a href="check.html">
+                    <i class="fa fa-shopping-cart fa-3x icons-head" aria-hidden="true" title="your card">
+                    </i>
+                  </a>
+
+                </li>
+                <li class="text-white">|</li>
+                <li>
+                  <a href="signin.html">
+                    <i class="fa fa-user-circle icons-head" aria-hidden="true" title="login"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="header-middle p-0 bg-lighter xs-text-center">
+      <div class="container pb-15 pt-15">
+        <div class="row">
+          <div class="col-xs-12 col-sm-12 col-md-3">
+            <a class="menuzord-brand pull-left flip sm-pull-center" href="homepage.html"><img src="images/logo.png"
+                alt=""></a>
+          </div>
+          <div class="col-xs-12 col-sm-4 col-md-3">
+            <div class="widget no-border sm-text-center mt-10 mb-10 m-0">
+              <i
+                class="fa fa-envelope text-theme-colored font-32 mt-5 mr-sm-0 sm-display-block pull-left flip sm-pull-none"></i>
+              <a href="#" class="font-12 text-gray text-uppercase">Mail Us Today</a>
+              <h5 class="font-13 text-black m-0"> info@yourdomain.com</h5>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-4 col-md-3">
+            <div class="widget no-border sm-text-center mt-10 mb-10 m-0">
+              <i
+                class="fa fa-phone-square text-theme-colored font-32 mt-5 mr-sm-0 sm-display-block pull-left flip sm-pull-none"></i>
+              <a href="#" class="font-12 text-gray text-uppercase">Call us for more details</a>
+              <h5 class="font-13 text-black m-0"> +(012) 345 6789</h5>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-4 col-md-3">
+            <div class="widget no-border sm-text-center mt-10 mb-10 m-0">
+              <i
+                class="fa fa-building-o text-theme-colored font-32 mt-5 mr-sm-0 sm-display-block pull-left flip sm-pull-none"></i>
+              <a href="#" class="font-12 text-gray text-uppercase">Company Location</a>
+              <h5 class="font-13 text-black m-0"> 121 King Street, Melbourne</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+    <!-- Start Menu -->
+    <div class="container navbar-container">
+      <nav>
+        <ul class="mcd-menu">
+          <li>
+            <a href="homepage.html" class="active">
+              <i class="fa fa-home"></i>
+              <strong>Home</strong>
+              <small>Home Page</small>
+            </a>
+          </li>
+          <li>
+            <a href="categories.html">
+              <i class="fa fa-list-alt" aria-hidden="true"></i>
+              <strong>Categories</strong>
+              <small>All Categories</small>
+            </a>
+            <ul>
+              <li><a href="#"><i class="fa fa-globe"></i>Medications</a></li>
+              <li>
+                <a href="#"><i class="fa fa-group"></i>vitamins</a>
+                <ul>
+                  <li><a href="#"><i class="fa fa-female"></i>Vitamin A</a></li>
+                  <li>
+                    <a href="#"><i class="fa fa-male"></i>Vitamin B</a>
+
+                  </li>
+                  <li><a href="#"><i class="fa fa-female"></i>Vitamin C</a></li>
+                </ul>
+              </li>
+              <li><a href="#"><i class="fa fa-trophy"></i>Beauty</a></li>
+              <li><a href="#"><i class="fa fa-certificate"></i>Mom &amp; Baby</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="pharmacies.html">
+              <i class="fa fa-medkit" aria-hidden="true"></i>
+              <strong>Pharmacies</strong>
+              <small>All Pharmacies</small>
+            </a>
+            <ul>
+              <li><a href="#"><i class="fa fa-globe"></i>Elezaby</a></li>
+              <li>
+                <a href="#"><i class="fa fa-group"></i>Rodhy</a>
+
+              </li>
+              <li><a href="#"><i class="fa fa-trophy"></i>Seif</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="aboutus.html">
+              <i class="fa fa-edit"></i>
+              <strong>About us</strong>
+              <small>about us</small>
+            </a>
+          </li>
+          <li>
+            <a href="contactus.html">
+              <i class="fa fa-comments-o"></i>
+              <strong>Contact Us</strong>
+              <small>keep in touch</small>
+            </a>
+          </li>
+          <li class="float">
+            <a class="search">
+              <input type="text" value="search ...">
+              <button><i class="fa fa-search"></i></button>
+            </a>
+            <a href="" class="search-mobile">
+              <i class="fa fa-search"></i>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <!-- End Menu -->
+  </header>
+
  
   
   <!-- Start main-content -->
@@ -275,6 +423,177 @@
 
   <!-- Footer -->
 
+  <footer id="footer" class="footer bg-black-111">
+    <div class="container pt-70 pb-40">
+      <div class="row border-bottom-black">
+        <div class="col-sm-6 col-md-3">
+          <div class="widget dark">
+            <a href="homepage.html"><img class="mb-20" alt="" height="100px" src="images/logo.png"></a>
+            <p>Lorem ipsum dolor adipisicing amet, consectetur sit elit. Aspernatur incidihil quo officia.</p>
+            <ul class="list-inline mt-5">
+              <li class="m-0 pl-10 pr-10"> <i class="fa fa-map-marker text-theme-colored mr-5"></i> <a
+                  class="text-gray" href="#">203, Envato Labs, Behind Alis Steet, Melbourne, Australia</a> </li>
+              <li class="m-0 pl-10 pr-10"> <i class="fa fa-phone text-theme-colored mr-5"></i> <a class="text-gray"
+                  href="#">123-456-789</a> </li>
+              <li class="m-0 pl-10 pr-10"> <i class="fa fa-envelope-o text-theme-colored mr-5"></i> <a
+                  class="text-gray" href="#">contact@yourdomain.com</a> </li>
+              <li class="m-0 pl-10 pr-10"> <i class="fa fa-globe text-theme-colored mr-5"></i> <a class="text-gray"
+                  href="#">www.yourdomain.com</a> </li>
+            </ul>
+          </div>
+          <div class="widget dark">
+            <h5 class="widget-title mb-10">Connect With Us</h5>
+            <ul class="styled-icons icon-dark icon-circled icon-sm">
+              <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+              <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+              <li><a href="#"><i class="fa fa-skype"></i></a></li>
+              <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+              <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+              <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-3">
+          <div class="widget dark">
+            <h5 class="widget-title line-bottom">Useful Links</h5>
+            <ul class="list-border">
+              <li><a href="homepage.html">Home</a></li>
+              <li><a href="aboutus.html">About us</a></li>
+              <li><a href="contactus.html">Contact</a></li>
+            </ul>
+          </div>
+          <div class="widget dark">
+            <h5 class="widget-title line-bottom">Other Links</h5>
+            <ul class="list-border">
+              <li><a href="shortcode-sitemap.html">FAQ</a></li>
+              <li><a href="shortcode-sitemap.html">Sitemap</a></li>
+              <li><a href="page-contact1.html">Policy</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-3">
+          <div class="widget dark">
+            <h5 class="widget-title line-bottom">Latest News</h5>
+            <div class="latest-posts">
+              <article class="post media-post clearfix pb-0 mb-10">
+                <a href="blog-single-right-sidebar.html" class="post-thumb"><img alt="" src="images/awards/1.png"></a>
+                <div class="post-right">
+                  <h5 class="post-title mt-0 mb-5"><a href="blog-single-right-sidebar.html">Sustainable
+                      Construction</a></h5>
+                  <p class="post-date mb-0 font-12">Mar 08, 2015</p>
+                </div>
+              </article>
+              <article class="post media-post clearfix pb-0 mb-10">
+                <a href="blog-single-right-sidebar.html" class="post-thumb"><img alt="" src="images/awards/2.png"></a>
+                <div class="post-right">
+                  <h5 class="post-title mt-0 mb-5"><a href="blog-single-right-sidebar.html">Industrial Coatings</a>
+                  </h5>
+                  <p class="post-date mb-0 font-12">Mar 08, 2015</p>
+                </div>
+              </article>
+              <article class="post media-post clearfix pb-0 mb-10">
+                <a href="blog-single-right-sidebar.html" class="post-thumb"><img alt="" src="images/awards/3.png"></a>
+                <div class="post-right">
+                  <h5 class="post-title mt-0 mb-5"><a href="blog-single-right-sidebar.html">Storefront
+                      Installations</a></h5>
+                  <p class="post-date mb-0 font-12">Mar 08, 2015</p>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="widget dark">
+            <h5 class="widget-title line-bottom">Call Us Now</h5>
+            <div class="text-gray">
+              +61 3 1234 5678 <br>
+              +12 3 1234 5678
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-3">
+          <div class="widget dark">
+            <h5 class="widget-title line-bottom">Opening Hours</h5>
+            <div class="opening-hours">
+              <ul class="list-border">
+                <li class="clearfix"> <span> Mon - Tues : </span>
+                  <div class="value pull-right flip"> 6.00 am - 10.00 pm </div>
+                </li>
+                <li class="clearfix text-white"> <span> Wednes - Thurs :</span>
+                  <div class="value pull-right flip"> 8.00 am - 6.00 pm </div>
+                </li>
+                <li class="clearfix"> <span> Fri : </span>
+                  <div class="value pull-right flip"> 3.00 pm - 8.00 pm </div>
+                </li>
+                <li class="clearfix"> <span> Sun : </span>
+                  <div class="value pull-right flip"> Closed </div>
+                </li>
+                <li class="clearfix"> <span> Sat : </span>
+                  <div class="value pull-right flip"> 10.00 am - 2.00 pm </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="widget dark">
+            <h5 class="widget-title line-bottom">Subscribe Us</h5>
+            <!-- Mailchimp Subscription Form Starts Here -->
+            <form id="mailchimp-subscription-form-footer" class="newsletter-form">
+              <div class="input-group">
+                <input type="email" value="" name="EMAIL" placeholder="Your Email"
+                  class="form-control input-lg font-16" data-height="45px" id="mce-EMAIL-footer">
+                <span class="input-group-btn">
+                  <button data-height="45px" class="btn btn-colored btn-theme-colored btn-xs m-0 font-14"
+                    type="submit">Subscribe</button>
+                </span>
+              </div>
+            </form>
+            <!-- Mailchimp Subscription Form Validation-->
+            <script type="text/javascript">
+              $('#mailchimp-subscription-form-footer').ajaxChimp({
+                callback: mailChimpCallBack,
+                url: '//thememascot.us9.list-manage.com/subscribe/post?u=a01f440178e35febc8cf4e51f&amp;id=49d6d30e1e'
+              });
+
+              function mailChimpCallBack(resp) {
+                // Hide any previous response text
+                var $mailchimpform = $('#mailchimp-subscription-form-footer'),
+                  $response = '';
+                $mailchimpform.children(".alert").remove();
+                if (resp.result === 'success') {
+                  $response = '<div class="alert alert-success"><button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>' + resp.msg + '</div>';
+                } else if (resp.result === 'error') {
+                  $response = '<div class="alert alert-danger"><button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>' + resp.msg + '</div>';
+                }
+                $mailchimpform.prepend($response);
+              }
+            </script>
+            <!-- Mailchimp Subscription Form Ends Here -->
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="footer-bottom bg-black-222">
+      <div class="container pt-10 pb-0">
+        <div class="row">
+          <div class="col-md-6 sm-text-center">
+            <p class="font-13 text-black-777 m-0">Copyright &copy;2017 ThemeMascot. All Rights Reserved</p>
+          </div>
+          <div class="col-md-6 text-right flip sm-text-center">
+            <div class="widget no-border m-0">
+              <ul class="styled-icons icon-dark icon-circled icon-sm">
+                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fa fa-skype"></i></a></li>
+                <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+                <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
   <a class="scrollToTop" href="#"><i class="fa fa-angle-up"></i></a>
 </div>
 <!-- end wrapper -->
