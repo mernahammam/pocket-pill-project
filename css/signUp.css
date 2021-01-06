@@ -142,6 +142,7 @@ form.form1 {
     font-size: 20px;
     box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.04);
     text-align: center;
+    transition: 2s;
     transition-property: padding-left, padding-right, margin-left;
 }
 
@@ -150,9 +151,9 @@ form.form1 {
     /* opacity: .8; */
     border: none;
     color: #fff!important;
-    padding-left: 150px;
+    /* padding-left: 150px;
     padding-right: 150px;
-    margin-left: 15%;
+    margin-left: 15%; */
     opacity: 1;
 }
 
@@ -186,9 +187,9 @@ form.form1 {
 }
 
 .signp .submit:hover {
-    padding-left: 175px;
+    /* padding-left: 175px;
     padding-right: 170px;
-    margin-left: 16%;
+    margin-left: 16%; */
 }
 
 .signp ul {
